@@ -1,0 +1,60 @@
+/* Ajoutez vos styles personnalisés ici */
+body {
+    font-family: Arial, sans-serif;
+    padding: 10%;
+    background-color: rgb(246, 127, 127);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+fieldset{
+    background-color: aqua;
+    padding: 60px;
+    border-radius: 12px;
+    border-style: dashed;
+    border-color: blue;
+    
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#participants-list {
+    margin-top: 20px;
+}
+
+#participants-list div {
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: beige;
+    border:5px solid black ;
+    background-color: black;
+    font-size: 12px;
+
+}
